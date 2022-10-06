@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Azure Native picoblogue</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="{{ request.url_for('static', path='style.css') }}" rel="stylesheet">
   </head>
   <body>
     <header class="site-header">
